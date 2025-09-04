@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>À propos - CréaNova</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="font-sans text-gray-900"></body>
+  <section class="py-20 bg-gray-100">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center">
+            <img src="contact illustration.png" alt="contact illustration - Téléphone, café et icône email" class="mx-auto h-48 w-auto mb-8 rounded-lg shadow-lg">
+            <h2 class="text-3xl font-extrabold text-gray-900 sm:text-4xl">
+                Contactez-nous
+            </h2>
+            <p class="mt-4 text-lg text-gray-600">
+                Veuillez renseigner vos informations.
+            </p>
+        </div>
+        <div class="mt-12">
+            <form action="#" method="POST" class="grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8">
+                <div>
+                    <span class="block text-sm font-medium text-gray-700">Nom</span>
+                    <div class="mt-1">
+                        <input type="text" name="name" id="name" autocomplete="name" class="py-3 px-4 block w-full shadow-sm focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md">
+                    </div>
+                </div>
+                <div>
+                    <span class="block text-sm font-medium text-gray-700">Email</span>
+                    <div class="mt-1">
+                        <input id="email" name="email" type="email" autocomplete="email" class="py-3 px-4 block w-full shadow-sm focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md">
+                    </div>
+                </div>
+                <div class="sm:col-span-2">
+                    <span class="block text-sm font-medium text-gray-700">Message</span>
+                    <div class="mt-1">
+                        <textarea id="message" name="message" rows="4" class="py-3 px-4 block w-full shadow-sm focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md"></textarea>
+                    </div>
+                </div>
+                <div class="sm:col-span-2">
+                    <button type="submit" class="w-full inline-flex items-center justify-center px-6 py-3 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
+                        Envoyer
+                    </button>
+                </div>
+                <div class="sm:col-span-2 mt-8 text-center">
+    <a href="index.html" class="inline-flex items-center justify-center px-6 py-3 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500">
+        Retour à l'accueil
+    </a>
+</div>
+            </form>
+        </div>
+    </div>
+</section>
+</html>
